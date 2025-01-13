@@ -17,6 +17,15 @@
 .bg_primary {
     background-color: #fff8f3;
 }
+.section_title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section_description {
+    font-size: 18px;
+    color: #757575;
+}
 .dark_1 {
     color: #181818;
 }
@@ -35,6 +44,11 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 /* Todo: Nav Style */
@@ -102,4 +116,29 @@ nav ul li a {
 
 body > header > div > div > button:nth-child(4) {
     margin-right: 30px;
+}
+
+/* Todo: About Styles */
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin: 100px 0;
+    /* gap: 30px; */
+}
+.about_des {
+    margin: 30px 0;
+}
+.about_items {
+    display: flex;
+    justify-content: space-between;
+}
+.item_title {
+    font-size: 20px;
+    color: #757575;
+}
+.item_description {
+    font-weight: 600;
+    font-size: 20px;
+    color: #474747;
 }
