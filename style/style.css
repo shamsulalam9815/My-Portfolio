@@ -147,6 +147,9 @@ body > header > div > div > button:nth-child(4) {
 }
 
 /* Skills Styling */
+.skills {
+    margin: 130px 0;
+}
 .skill_des {
     margin: 30px 0 50px;
 }
@@ -170,4 +173,42 @@ body > header > div > div > button:nth-child(4) {
 }
 .skills_description {
     color: #757575;
+}
+
+/* ! Resume styles */
+
+.resume_container {
+    display: flex;
+    gap: 70px;
+    margin-top: 100px;
+}
+.resume_container .main_title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+
+    margin-bottom: 30px;
+}
+
+.education .resume_title,
+.experience .resume_title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.education .resume_subtitle,
+.experience .resume_subtitle {
+    font-size: 20px;
+    /* font-weight: bold; */
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume_btn {
+    margin-top: 50px;
+}
+
+hr {
+    margin: 30px 0;
 }
